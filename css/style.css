@@ -22,11 +22,12 @@ h6 {
     padding: 130px 0;
 }
 
-.grid{
+.grid {
     background-image: url(/img/grid.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .btn_black {
     background-color: #000;
     color: #fff;
@@ -76,7 +77,7 @@ h6 {
     font-weight: 500;
 }
 
-.banner{
+.banner {
     padding-bottom: 80px;
 }
 
