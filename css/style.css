@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,100&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Kanit', sans-serif;
+    color: #939393;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #000;
+}
+
+.section_pad {
+    padding: 130px 0;
+}
+
+.grid{
+    background-image: url(/img/grid.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.btn_black {
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 8px 20px;
+}
+
+.btn_black:hover {
+    background-color: #FFD02F;
+    color: #000;
+}
+
+.section_top {
+    padding-top: 130px;
+}
+
+.head {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70px;
+    max-width: 720px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.head_sub {
+    font-weight: 700;
+    font-size: 38px;
+}
+
+.clr {
+    color: #FFD02F;
+}
+
+.text-gray {
+    color: #939393;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #FFD02F;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 16px;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+
+.banner{
+    padding-bottom: 80px;
+}
+
+.footer {
+    background-color: #000;
+}
+
+.clients {
+    background-color: #000;
+    padding: 50px 0;
+}
+
+.footer__wrap ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer__wrap ul li {
+    padding-bottom: 10px;
+}
+
+.footer__wrap ul li a {
+    color: #939393;
+    text-decoration: none;
+}
+
+.footer__btm {
+    border-top: 1px solid #636363;
+    padding: 20px 0;
+    margin-top: 65px;
+}
+
+
+
+.service_wrap .wrap .text__wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #6d6d6d;
+    border-radius: 50px;
+}
+
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+    .banner {
+        padding-top: 50px;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    .section_pad {
+        padding: 80px 0;
+    }
+
+    .section_top {
+        padding-top: 80px;
+    }
+
+    .head {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 36px;
+        max-width: 720px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+}
