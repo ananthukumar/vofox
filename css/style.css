@@ -90,6 +90,15 @@ h6 {
     padding: 50px 0;
 }
 
+.clients .wrap {
+    overflow: auto;
+}
+
+.clients .box {
+    width: 200px;
+    padding-bottom: 20px;
+}
+
 .footer__wrap ul {
     list-style-type: none;
     margin: 0;
@@ -104,7 +113,8 @@ h6 {
     color: #939393;
     text-decoration: none;
 }
-.footer__wrap ul li a:hover{
+
+.footer__wrap ul li a:hover {
     color: #FFD02F;
 }
 
